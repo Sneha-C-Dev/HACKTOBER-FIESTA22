@@ -1,10 +1,11 @@
 from gameit.example import exampleGame
 from gameit.aqeelshamz import treasureHunt
 from gameit.MohdShibin import snakeGame
+from gameit.Sneha-C-Dev import result
 
 
 def main():
-    games = {"example": exampleGame, "aqeelshamz": treasureHunt, "MohdShibin": snakeGame}
+    games = {"example": exampleGame, "aqeelshamz": treasureHunt, "MohdShibin": snakeGame, "Sneha-C-Dev": result}
     while True:
         username = input("Enter github username:\n")
         try:
